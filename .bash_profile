@@ -1,4 +1,5 @@
 ## common alias/config for unix like
+export PATH=$(getconf PATH)
 function filter_file {
   grep -i "$1" $2
 }
